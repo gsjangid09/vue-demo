@@ -117,13 +117,6 @@
                   <p>Manage branch server</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="pages/charts/flot.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Flot</p>
-                </a>
-              </li>
-             
             </ul>
           </li>
            <li class="nav-item">
@@ -131,6 +124,15 @@
               <i class="nav-icon fas fa-th"></i>
                 <p>
                   Register
+                </p>
+             </router-link>
+          </li>
+
+           <li class="nav-item">
+             <router-link to="/users" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+                <p>
+                  Users
                 </p>
              </router-link>
           </li>
