@@ -1,6 +1,6 @@
 <template>
+    <Header/>
     <div class="wrapper">
-
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
@@ -606,12 +606,18 @@
             <!-- /.content -->
         </div>
         <!-- /.content-wrapper -->
-       
     </div>
+    <Footer/>
 </template>
 
 <script>
+import Header from '../Layout/Header.vue'
+import Footer from '../Layout/Footer.vue'
 export default {
-  name: 'Index',
+  name: 'DashBoard',
+  components: {
+    Header,
+    Footer
+  }
 }
 </script>
